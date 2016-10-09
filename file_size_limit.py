@@ -7,7 +7,7 @@ import os
 class File():
     
     # maxsize为单文件最大大小,单位为MiB
-    def __init__(self,filename,mode='rb',maxsize=None,encoding='utf-8'):
+    def __init__(self,filename,mode='ab',maxsize=None,encoding='utf-8'):
         self.filename = filename
         self.basename = basename(filename)
         self.mode = mode
